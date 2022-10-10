@@ -14,5 +14,14 @@ export default {
       bindable: true,
       responsive: true,
     },
+    expanded: {
+      label: {
+        en: "Expanded",
+      },
+      type: "OnOff",
+      defaultValue: false,
+      bindable: true,
+      responsive: true,
+    },
   },
 };

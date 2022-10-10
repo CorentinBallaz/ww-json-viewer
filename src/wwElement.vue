@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <JsonViewer :value="content.data"></JsonViewer>
+    <JsonViewer :value="content.data" :expanded="content.expanded"></JsonViewer>
   </div>
 </template>
 
