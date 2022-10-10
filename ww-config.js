@@ -19,7 +19,16 @@ export default {
         en: "Expanded",
       },
       type: "OnOff",
-      defaultValue: false,
+      defaultValue: true,
+      bindable: true,
+      responsive: true,
+    },
+    expand_depth:{
+      label: {
+        en: "Expand Depth",
+      },
+      type: "Number",
+      defaultValue: 1,
       bindable: true,
       responsive: true,
     },
