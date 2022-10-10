@@ -28,7 +28,7 @@ export default {
         en: "Expand Depth",
       },
       type: "Number",
-      defaultValue: 1,
+      defaultValue: 5,
       bindable: true,
       responsive: true,
     },
