@@ -9,8 +9,6 @@
     "@weweb/cli": "latest"
   },
   "dependencies": {
-    "tslib": "^2.4.0",
-    "vue-json-component": "^0.4.1",
     "vue-json-viewer": "^3.0.4"
   }
 }

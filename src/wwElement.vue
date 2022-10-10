@@ -1,11 +1,11 @@
 <template>
   <div class="app">
-    <json-viewer :value="jsonData"></json-viewer>
+    <JsonViewer :value="content.data"></JsonViewer>
   </div>
 </template>
 
 <script>
-import { JsonViewer } from "vue-json-viewer";
+import JsonViewer from "vue-json-viewer";
 import 'vue-json-viewer/style.css';
 
 export default {
@@ -13,24 +13,5 @@ export default {
   props: {
     content: { type: Object, required: true },
   },
-  computed: {
-    jsonData() {
-      return {
-          total: 25,
-          limit: 10,
-          skip: 0,
-          links: {
-            previous: undefined,
-            next: function () {},
-          },
-          data: this.content.data,
-        };     
-      },
-    },
-  }
+}
 </script>
-
-
-<style scoped>
-
-</style>
